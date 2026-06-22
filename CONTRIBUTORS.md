@@ -4,7 +4,7 @@ This project is developed as part of the *Open Source Development Internship 202
 
 ## Core Contributors
 
-- *[Your Name]* - Project Lead & Developer
+- *Vardaan Saxena* - Project Lead & Developer
   - Initial project architecture
   - Core functionality implementation
   - Documentation
