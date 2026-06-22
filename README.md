@@ -1,15 +1,15 @@
-# 💰 SpendSense
+# SpendSense
 
 > A collaborative open-source Expense Tracker developed in C++ to help users manage expenses, track budgets, and analyze spending habits efficiently.
 
 ![C++](https://img.shields.io/badge/C%2B%2B-17-blue)
 ![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green)
-![Version](https://img.shields.io/badge/Version-v1.0-orange)
+![Version](https://img.shields.io/badge/Version-v0.1-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
-## 📖 About the Project
+## About the Project
 
 SpendSense is a console-based Expense Tracker System built using C++. It enables users to manage personal finances by recording expenses, tracking budgets, organizing spending into categories, and generating financial reports.
 
@@ -17,23 +17,23 @@ The project is being developed as part of the **Open Source Development Internsh
 
 ---
 
-## ✨ Features
+## Features
 
-### 👤 User Management
+### User Management
 - User Registration
-- User Login & Logout
+- User Login and Logout
 - Profile Management
 - Change Password
 - Forgot Password
 
-### 💸 Expense Management
+### Expense Management
 - Add Expense
 - Edit Expense
 - Delete Expense
 - View Expenses
 - Transaction History
 
-### 🔍 Search & Sorting
+### Search and Sorting
 - Search by ID
 - Search by Date
 - Search by Category
@@ -42,20 +42,20 @@ The project is being developed as part of the **Open Source Development Internsh
 - Sort by Amount
 - Sort by Category
 
-### 🏷️ Category Management
+### Category Management
 - Default Categories
 - Custom Categories
 - Category Statistics
 - Tag Management
 
-### 📊 Budget Management
+### Budget Management
 - Monthly Budget
 - Weekly Budget
 - Category Budget
 - Budget Alerts
 - Savings Goals
 
-### 📈 Reports & Analytics
+### Reports and Analytics
 - Daily Reports
 - Weekly Reports
 - Monthly Reports
@@ -65,14 +65,14 @@ The project is being developed as part of the **Open Source Development Internsh
 - Average Expense
 - Spending Trends
 
-### 💾 File Management
+### File Management
 - Save Data
 - Load Data
 - Backup Data
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Technology |
 |------------|------------|
@@ -80,11 +80,11 @@ The project is being developed as part of the **Open Source Development Internsh
 | Concepts | OOP, STL, File Handling |
 | Version Control | Git |
 | Repository Hosting | GitHub |
-| IDE | Visual Studio Code |
+| Development Environment | Visual Studio Code |
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 SpendSense/
@@ -133,9 +133,9 @@ SpendSense/
 
 ---
 
-## 🚀 Installation
+## Installation
 
-### Clone the Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/your-username/SpendSense.git
@@ -155,7 +155,7 @@ g++ src/*.cpp -o SpendSense
 
 ### Run
 
-#### Linux / Mac
+#### Linux / macOS
 
 ```bash
 ./SpendSense
@@ -169,7 +169,7 @@ SpendSense.exe
 
 ---
 
-## 🌿 Git Workflow
+## Git Workflow
 
 ```text
 main
@@ -184,11 +184,11 @@ main
 └── feature/analytics
 ```
 
-All features are developed independently and merged using Pull Requests.
+All features are developed independently and merged through Pull Requests.
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 | Name | Enrollment Number |
 |--------|------------------|
@@ -201,7 +201,7 @@ All features are developed independently and merged using Pull Requests.
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Develop a complete Expense Tracker using C++
 - Apply Object-Oriented Programming concepts
@@ -212,7 +212,7 @@ All features are developed independently and merged using Pull Requests.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
@@ -220,12 +220,8 @@ See the `LICENSE` file for more details.
 
 ---
 
-## ⭐ Acknowledgement
+## Acknowledgement
 
 Developed as part of the **Open Source Development Internship 2026**.
 
 This project aims to provide hands-on experience in software development, teamwork, version control, and open-source collaboration.
-
----
-
-### 🌟 Work in Progress
