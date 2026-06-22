@@ -119,16 +119,24 @@ SpendSense/
 │   ├── Report.cpp
 │   ├── ExportManager.cpp
 │   ├── Analytics.cpp
-│   ├── FileManager.cpp
-│   └── main.cpp
+│   └── FileManager.cpp
 │
 ├── data/
+│   ├── users.txt
+│   ├── expenses.txt
+│   ├── categories.txt
+│   └── budgets.txt
+│
+├── docs/
+│   └── architecture.png
+│
+├── main.cpp
 │
 ├── README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
-├── CHANGELOG.md
-└── CONTRIBUTORS.md
+├── CONTRIBUTORS.md
+└── CHANGELOG.md
 ```
 
 ---
