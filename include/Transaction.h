@@ -4,8 +4,8 @@
 class Transaction
 {
 public:
-    double income;
-    double expense;
+    double income = 0;
+    double expense = 0;
 
     void addIncome();
     void calculateBalance();
