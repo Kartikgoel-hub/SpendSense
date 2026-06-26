@@ -1,4 +1,6 @@
 #include <iostream>
+#include "include/User.h"
+#include "include/AccountManager.h"
 #include "include/Expense.h"
 #include "include/Search.h"
 
@@ -6,6 +8,9 @@ using namespace std;
 
 int main()
 {
+    User user;
+    AccountManager accountManager;
+
     Expense expense;
     Search search;
 
@@ -30,14 +35,52 @@ int main()
         switch(choice)
         {
             case 1:
-                cout << "\nUser Module Coming Soon...\n";
+            {
+                int userChoice;
+
+                cout << "\n========== User Management ==========";
+                cout << "\n1. Register User";
+                cout << "\n2. Login";
+                cout << "\n3. View Profile";
+                cout << "\n4. Change Password";
+                cout << "\n5. Back";
+
+                cout << "\n\nEnter Choice: ";
+                cin >> userChoice;
+
+                switch(userChoice)
+                {
+                    case 1:
+                        user.registerUser();
+                        break;
+
+                    case 2:
+                        accountManager.login(user);
+                        break;
+
+                    case 3:
+                        user.displayProfile();
+                        break;
+
+                    case 4:
+                        accountManager.changePassword(user);
+                        break;
+
+                    case 5:
+                        break;
+
+                    default:
+                        cout << "\nInvalid Choice!\n";
+                }
+
                 break;
+            }
 
             case 2:
             {
                 int expenseChoice;
 
-                cout << "\nExpense Management";
+                cout << "\n======== Expense Management ========";
                 cout << "\n1. Add Expense";
                 cout << "\n2. View Expense";
                 cout << "\n3. Edit Expense";
@@ -47,8 +90,9 @@ int main()
                 cout << "\n7. Search by Date";
                 cout << "\n8. Search by Amount";
                 cout << "\n9. Show Statistics";
+                cout << "\n10. Back";
 
-                cout << "\nEnter Choice: ";
+                cout << "\n\nEnter Choice: ";
                 cin >> expenseChoice;
 
                 switch(expenseChoice)
@@ -87,6 +131,9 @@ int main()
 
                     case 9:
                         expense.showStatistics();
+                        break;
+
+                    case 10:
                         break;
 
                     default:
